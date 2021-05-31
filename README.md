@@ -8,12 +8,12 @@ The _Open Game Backend_ is the effort of creating an open-source microservice ga
 
 The _Open Game Backend_ currently consists of the following services:
 
-* [_registry_](../registry) - Service registry based on [Netflix Eureka](https://github.com/Netflix/eureka).
-* [_gateway_](../gateway) - API gateway based on [Netflix Zuul](https://github.com/Netflix/zuul).
-* [_auth_](../auth) - Allows players, admins and servers to access your backend using [OAuth2](https://oauth.net/2/).
-* [_matchmaking_](../matchmaking) - Allows game server instances to register, and match players to these servers.
-* [_collection_](../collection) - Allows admins and servers to grant items to players, and players to create loadouts with these items.
-* [_quests_](../quests) - Allows generating daily or weekly quests for players, and players to complete these quests for rewards.
+* _registry_ - Service registry based on [Netflix Eureka](https://github.com/Netflix/eureka).
+* _gateway_ - API gateway based on [Netflix Zuul](https://github.com/Netflix/zuul).
+* _auth_ - Allows players, admins and servers to access your backend using [OAuth2](https://oauth.net/2/).
+* _matchmaking_ - Allows game server instances to register, and match players to these servers.
+* _collection_ - Allows admins and servers to grant items to players, and players to create loadouts with these items.
+* _quests_ - Allows generating daily or weekly quests for players, and players to complete these quests for rewards.
 
 All services are based on [Spring Boot](https://spring.io/projects/spring-boot), which provide many essential features such as embedded Tomcat servers or externalized configuration, without causing too much overhead.
 
