@@ -15,7 +15,7 @@ The _Open Game Backend_ currently consists of the following services:
 * _collection_ - Allows admins and servers to grant items to players, and players to create loadouts with these items.
 * _quests_ - Allows generating daily or weekly quests for players, and players to complete these quests for rewards.
 
-All services are based on [Spring Boot](https://spring.io/projects/spring-boot), which provide many essential features such as embedded Tomcat servers or externalized configuration, without causing too much overhead.
+All services are based on [Spring Boot](https://spring.io/projects/spring-boot), which provides many essential features such as embedded Tomcat servers or externalized configuration, without causing too much overhead.
 
 While the whole application has been designed with the Amazon AWS cloud in mind, you're free to deploy it to any other cloud, or even to a single bare-metal machine if you want to. However, with the cloud in mind, a feasible multi-node setup looks as follows:
 
@@ -29,7 +29,7 @@ Your game servers will need public IP addresses as well (green), but these don't
 
 ## API Documentation
 
-The whole application is using [Swagger](https://swagger.io/tools/swagger-ui/) to expose API documentation. You can access that documentation through the usual Swagger endpoints, i.e. http://localhost:9001/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/ when running the _auth_ service locally.
+The whole application is using [Swagger](https://swagger.io/tools/swagger-ui/) to expose API documentation. You can access that documentation through the usual Swagger endpoints, i.e. `http://localhost:9001/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/` when running the _auth_ service locally.
 
 ![Swagger](Images/Swagger.png)
 
